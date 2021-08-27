@@ -1,20 +1,44 @@
-body{
-  background: #755833;
+body {
+  background: lightgray;
+  margin: 0;
 }
 
-section{
-  max-width: 600px;
+header {
+  max-width: 800px;
   margin: auto;
-  padding: 3rem;
-}
-p{
-      margin-bottom: 3rem;
+  padding: 1rem;
+  background: red;
 }
 
-img{
-  width: 100%;
+main {
+    max-width: 800px;
+    margin: auto;
+    background: darkgrey;
+    padding: 5rem 1rem 3rem 1rem;
 }
 
-h1{
-  color: #7c2121;
+h1 {
+  text-align: center;
 }
+
+footer {
+  background: black;
+  color: white;
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  overflow: auto;
+}
+
+.footer-list li {
+  float: left;
+  margin-right: 1rem;
+}
+ a{
+    color: #5ddee5;
+ }
